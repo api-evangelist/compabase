@@ -64,5 +64,142 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Compabase is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://compabase.com
+Compabase provides smart data on Polish companies, offering current financial and registry information sourced from public Polish registries. Users can verify business partners, mitigate risk, and discover trusted partners through searchable company databases filtered by revenue, location, industry, and more. The platform includes AI assistance, detailed company profiles, industry insights, and tools for due diligence, prospecting, market monitoring, and data automation.
+
+**Areas:** Company · Data · Polish · Business
+
+## Compabase on APIs.io
+
+Everything profiled for Compabase is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/compabase/](https://apis.io/providers/compabase/)** — or go straight to one of the APIs or properties below.
+
+### APIs (5)
+
+- [Compabase Companies API](https://apis.io/apis/compabase/compabase-companies-api/) — The Companies API from Compabase — 14 operation(s) for companies.
+- [Compabase Health API](https://apis.io/apis/compabase/compabase-health-api/) — The Health API from Compabase — 1 operation(s) for health.
+- [Compabase Persons API](https://apis.io/apis/compabase/compabase-persons-api/) — The Persons API from Compabase — 2 operation(s) for persons.
+- [Compabase Usage API](https://apis.io/apis/compabase/compabase-usage-api/) — The Usage API from Compabase — 1 operation(s) for usage.
+- [Compabase Watchlist API](https://apis.io/apis/compabase/compabase-watchlist-api/) — The Watchlist API from Compabase — 2 operation(s) for watchlist.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Compabase Agentic Access](https://apis.io/agentic-access/compabase/compabase-agentic-access/)
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [CompanyCountResponse](https://apis.io/schemas/compabase/compabase-company-count-response/)
+- [CompanyListResponse](https://apis.io/schemas/compabase/compabase-company-list-response/)
+- [PersonConnectionsResponse](https://apis.io/schemas/compabase/compabase-person-connections-response/)
+- [PersonSearchItem](https://apis.io/schemas/compabase/compabase-person-search-item/)
+- [WatchlistAddResponse](https://apis.io/schemas/compabase/compabase-watchlist-add-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Compabase Context](https://apis.io/jsonld/compabase/compabase-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Compabase Openapi Overlay](https://apis.io/overlays/compabase/compabase-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Compabase API Rules](https://apis.io/rules/compabase/compabase-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Compabase Authentication](https://apis.io/security/compabase/compabase-authentication/)
+- [Compabase Domain Security](https://apis.io/security/compabase/compabase-domain-security/)
+- [Compabase Vulnerability Disclosure](https://apis.io/security/compabase/compabase-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Compabase Plans Pricing](https://apis.io/plans/compabase/compabase-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://compabase.com)
+- [Documentation](https://compabase.com/docs/)
+- [Getting started](https://compabase.com/docs/)
+- [API reference](https://compabase.com/docs/)
+- [Pricing](https://compabase.com/pricing)
+- [Sign up](https://compabase.com/join)
+- [Support](https://compabase.com/contact?topic=sales)
+- [Blog](https://compabase.com/blog/)
+- [Terms of service](https://compabase.com/terms)
+- [Privacy policy](https://compabase.com/privacy)
+- [GitHub](https://github.com/ContentWriterco/compabase-api)
+- [Status](https://compabase.com/status)
+
+## API Evangelist rating
+
+**Kin Score 60.1** — strong · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 64.5 |
+| Contract governance | 35.6 |
+| Operational transparency | 36.8 |
+| Developer ergonomics | 57.1 |
+| Access clarity | 76.3 |
+
+**Agent readiness 50.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | verified |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 30.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/compabase/](https://apis.io/providers/compabase/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Compabase: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/compabase/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
